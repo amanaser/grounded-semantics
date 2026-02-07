@@ -6,6 +6,19 @@ A machine learning project that identifies objects in images based on natural la
 
 This project implements a "Words as Classifiers" approach to solve referring expression comprehension. Given an image and a text description, the model identifies which object in the image the description refers to.
 
+### Example
+
+![Example: Referring Expression](image.png)
+
+**Reference ID:** 35254 (Annotation ID: 275551)
+
+**Referring Expressions:**
+1. "white brown sheep right"
+2. "black sheep on right"
+3. "sheep on the right"
+
+All three expressions refer to the same object (highlighted with green bounding box).
+
 ## Task Description
 
 **Referring Expression Comprehension** is the task of:
